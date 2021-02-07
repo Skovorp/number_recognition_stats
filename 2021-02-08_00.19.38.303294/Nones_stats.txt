@@ -1,0 +1,26 @@
+
+Number - detection -: 208
+Number + detection -: 8
+Number - detection +: 6
+Number + detection +: 853
+
+Number wasn't detected: 
+              file     number prediction
+338   8ec0840d26d   A275EC34       None
+481   aec9c1edcd1   A236EO34       None
+552   77c06f4152d   A319PX34       None
+730   31deb19f9b1  E649BK532       None
+852   cc5b113e57a  E649BK532       None
+1008  584f186344f   P008MY34       None
+1010  3ff3000ebfe   P255KO34       None
+1038  a723c132fbd   H402XH34       None
+
+Number falsely detected:
+              file number prediction
+598   5d5453a75e6   None   K???????
+742   e5d76b1424c   None   Y5??T?8?
+815   1c137d6cd0f   None   ?352??4?
+988   78564e92461   None   H222????
+1026  653951d490b   None   ?18?????
+1029  7afb5bb86c7   None   ?386????
+No nans from merging

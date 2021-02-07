@@ -1,0 +1,14 @@
+Numbers of type 0 (A123BC777!)]: 852
+Numbers of type 1 (AB1234777!)]: 0
+Mistakes:
+
+To many ? for type identification: 1
+        file    number prediction  lev_dist  num_type  pred_type
+ b87a765aa45  X503BP70   ????????       8.0         0         -2
+
+Impossible type: 0
+
+Wrong type: 3
+ e8396639937  H544TB60  ??5254480  6.8  0  1
+ 970b3aa9547  A949XK34   P?94708?  6.9  0  1
+ 7da78a1b3ad  B276EE10   BH76810?  3.9  0  1
