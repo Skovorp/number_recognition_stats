@@ -1,8 +1,8 @@
 # Description
-This code generates analytics of car number recognition algorithm, that processes security camera photos. This is important to understand limitations and problematic cases of algorythm and estimate performance in defferent usecases. Files generated from sample gt and results can be found in folder 2021-02-08_00.19.38.303294
+This code generates analytics of license plate number recognition algorithm, that processes security camera photos. This is important to understand limitations and problematic cases of algorythm and estimate performance in defferent usecases. Files generated from sample gt and results can be found in folder 2021-02-08_00.19.38.303294
 # Input files
 ##### gt.csv
-- File with actual car numbers. Sample file has real car numbers distorted to protect privacy.
+- File with actual license plate numbers. Sample file has real numbers distorted to protect privacy.
 - Doesn't have header
 - Every line represents a sigle recognition attempt
 - First column consists of filenames (or any other unuque strings) for number
@@ -26,7 +26,7 @@ Writes table as in previous, but each number is normalised by occurance frequenc
 ##### Nones_stats.txt
 Some files do not contain any number (None). If algorythm works correctly, it should also return None. In this file number of false/true positive or negative results are measured and files where mistakes occured are shown. Also contains info about merge fails if any.
 ##### Type_stats.txt
-There are 2 types of car numbers in Russia. In this file, there is info about freqency of type recogmision.
+There are 2 types of license plate number in Russia. In this file, there is info about freqency of type recogmision.
 ##### All_mistakes.txt
 All numbers with mistakes. Each mistake comes with Levenstein distance calculated with provided weights.
 ##### ids_log.txt
